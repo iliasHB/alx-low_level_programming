@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * _isupper - Program Entry point
+ * _isupper - Program entry point
  *
- * @c: Number to pass to _isupper function
+ * @k: _isupper function is expecting value for k
  *
  * Return: 0 on Success
  */

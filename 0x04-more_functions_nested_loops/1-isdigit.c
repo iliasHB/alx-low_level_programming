@@ -2,9 +2,9 @@
 /**
  * _isdigit - Program entry point
  *
- * @k: _isdigit function expexting number
+ * @k: _isdigit function value k expecting number
  *
- * Return: Always 0 (Success)
+ * Return: 0 on success
  */
 int _isdigit(int k)
 {
