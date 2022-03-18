@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * more_numbers - Program entry point
  *
