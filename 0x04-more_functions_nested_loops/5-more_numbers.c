@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 /**
  * more_numbers - Program entry point
@@ -23,7 +24,7 @@ void more_numbers(void)
 			i++;
 		}
 		j++;
-		putchar ('\n');
+		_putchar ('\n');
 	}
 	return (0);
 }
