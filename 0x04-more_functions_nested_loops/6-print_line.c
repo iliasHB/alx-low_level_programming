@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include "main.h"
 /**
- * print_line - Program executing point to draw a straigth line with _.
+ * print_line - Function entry point
  *
  * @n: The number of straigth line to draw
  *

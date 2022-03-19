@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 /**
  * main - Program entry point
  *
@@ -12,11 +13,11 @@ int main(void)
 	i = 1;
 	while (i <= 100)
         {
-		if (i % 3 == 0 && i % 5 == 0)
+		if ((i % 3) == 0 && (i % 5) == 0)
 			printf("%s ", "FizzBuzz");
-		else if (i % 3 == 0)
+		else if ((i % 3) == 0)
 			printf("%s ", "Fizz");
-		else if (i % 5 == 0)
+		else if ((i % 5) == 0)
 			printf("%s ", "Buzz");
 		else 
 			printf("%d ", i);

@@ -21,11 +21,11 @@ void more_numbers(void)
 }
 
 /**
- * print_num - pass a value to the fuction
+ * print_num - prototype function entry point
  *
- * @n: enter an interger value for n
+ * @n: Enter a value for n
  *
- * Return: 0 0n success
+ * Return: 0 on success
  */
 void print_num(int n)
 {
