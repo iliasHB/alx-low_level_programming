@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * more_numbers - Program entry point
@@ -15,15 +16,26 @@ void more_numbers(void)
 	{
 		while (i <= 14) 
 		{
-			if (i > 9)
-			{
-				_putchar(i / 10 + '0');
-				_putchar(i % 10 + '0');
-			}
+			print_num(i);
 			i++;
 		}
 		j++;
-		_putchar ('\n');
+		putchar ('\n');
 	}
-	return (0);
+}
+
+/**
+ * print_num - pass a value to the fuction
+ *
+ * @n - enter an interger value for n
+ *
+ * Return: chars
+ */
+void print_num(int n)
+{
+	if (n / 10)
+	{
+		print_num(n / 10);
+	}
+	putchar(n % 10 + '0');
 }
