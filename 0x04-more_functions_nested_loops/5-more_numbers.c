@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * more_numbers - Program entry point
- *
+ * more_numbers - Program Entry point
+ * 
  * Return: 0 on success
  */
 void more_numbers(void)
@@ -10,16 +10,12 @@ void more_numbers(void)
 	int j;
 	int i;
 
-	j = 0;
-	while (j < 10)
+	for (j = 0; j < 10; j++)
 	{
-		i = 0;
-		while (i <= 14) 
+		for (i = 0; i <= 14; i++) 
 		{
 			print_num(i);
-			i++;
 		}
-		j++;
 		putchar('\n');
 	}
 }
