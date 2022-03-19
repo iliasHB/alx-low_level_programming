@@ -11,9 +11,9 @@ void more_numbers(void)
 	int i;
 
 	j = 0;
-	i = 0;
-	while (j <= 10)
+	while (j < 10)
 	{
+		i = 0;
 		while (i <= 14) 
 		{
 			print_num(i);
@@ -27,7 +27,7 @@ void more_numbers(void)
 /**
  * print_num - pass a value to the fuction
  *
- * @n - enter an interger value for n
+ * @n: enter an interger value for n
  *
  * Return: chars
  */

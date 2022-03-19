@@ -16,6 +16,7 @@ void print_diagonal(int n)
 		putchar('\n');
 	else
 	{
+		i = 0;
 		while (i < n)
 		{
 			print_space(i);
@@ -37,6 +38,7 @@ void print_space(int n)
 {
 	int j;
 
+	j = 0;
 	while (j < n)
 	{
 		putchar(' ');
