@@ -20,7 +20,7 @@ void more_numbers(void)
 			i++;
 		}
 		j++;
-		putchar ('\n');
+		putchar('\n');
 	}
 }
 
@@ -29,7 +29,7 @@ void more_numbers(void)
  *
  * @n: enter an interger value for n
  *
- * Return: chars
+ * Return: 0 0n success
  */
 void print_num(int n)
 {
