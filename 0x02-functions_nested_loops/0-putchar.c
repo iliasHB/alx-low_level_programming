@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Entry point
+ * main - Program entry point
  *
- * Return: Always 0 (Success)
+ * Return: 0 on success
  */
 int main(void)
 {
@@ -14,7 +14,8 @@ int main(void)
          str = str0[inc];
          while (str != '\0')
          {
-		 putchar(str);											                         inc++;
+		 putchar(str);
+		 inc++;
  		 str = str0[inc];			
 	 }
 	 putchar('\n');
